@@ -1,0 +1,26 @@
+/* OSLO font */
+@font-face
+{
+    font-family: 'OSLO';
+    src: url('fonts/oslo/Oslo.woff') format('woff'),
+    url('fonts/oslo/Oslo.ttf') format('truetype'),
+    url('fonts/oslo/Oslo.svg') format('svg');
+}
+
+/* OSLO 2 font */
+@font-face
+{
+    font-family: 'OSLO 2';
+    src: url('fonts/oslo-ii/OsloII.woff') format('woff'),
+    url('fonts/oslo-ii/OsloII.ttf') format('truetype'),
+    url('fonts/oslo-ii/OsloII.svg') format('svg');
+}
+
+/* Zector font */
+@font-face
+{
+    font-family: 'Zector';
+    src: url('fonts/zector/Zector.woff') format('woff'),
+    url('fonts/zector/Zector.ttf') format('ttf'),
+    url('fonts/zector/Zector.svg') format('svg');
+}

@@ -1,0 +1,23 @@
+/* Image styles */
+img
+{
+    position: relative;
+}
+
+#gallery
+{
+    min-height: 600px;
+    height: 100%;
+    width: 100%;
+}
+
+#tagline
+{
+    position: absolute;
+    bottom: 0;
+}
+
+#sip
+{
+    height: 125px;
+}
