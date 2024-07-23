@@ -1,0 +1,119 @@
+/* General styles */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header
+{
+    position: relative;
+    z-index: 10;
+    flex-grow: 1;
+    display: inline-flex;
+    flex-direction: row;
+    top: 0;
+    height: 60px;
+    width: 100%;
+}
+
+header nav
+{
+    position: absolute;
+    height: 100%;
+    right: 0;
+    padding-right: 10px;
+    justify-content: right;
+}
+
+header nav ul
+{
+    position: relative;
+    top: 12px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+header nav ul li
+{
+    float: left;
+}
+
+header nav ul li a
+{
+    display: block;
+    padding: 4px 10px;
+    margin: auto;
+}
+
+#logo
+{
+    position: relative;
+    height: 100%;
+    padding-right: 10px;
+    overflow: visible;
+}
+
+/* Main section styles */
+main
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+section
+{
+    position: relative;
+    min-height: 250px;
+    max-width: 1400px;
+    padding: 40px 28px;
+    margin: 76px auto;
+    justify-content: center;
+}
+
+section > p, section > a
+{
+    padding-top: 20px;
+}
+
+.left-column
+{
+    float: left;
+    width: 75%;
+    min-height: 60px;
+}
+
+.right-column
+{
+    float: right;
+    width: 25%;
+    min-height: 60px;
+}
+
+.card
+{
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+footer
+{
+    position: relative;
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+#bottom-navbar
+{
+    margin-bottom: 20px;
+}
+
+#bottom-navbar ul li a
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}

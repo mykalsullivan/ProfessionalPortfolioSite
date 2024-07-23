@@ -3,42 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=viewport-width, initial-scale=1.0">
-    <link rel="stylesheet" href="msp_reset.css"/>
-    <link rel="stylesheet" href="msp_home.css"/>
+    <link rel="stylesheet" href="msp_layout.css">
+    <link rel="stylesheet" href="msp_styles.css">
     <title>Home | Mykal Sullivan</title>
+    <style>
+        #welcome {
+            z-index: 5;
+            height: 93.8vh;
+            max-width: 1920px;
+            padding: 0;
+            margin: auto;
+        }
+
+        #welcome img
+        {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: transparent;
+        }
+
+        #tagline
+        {
+            position: absolute;
+            z-index: 5;
+            bottom: 0;
+            left: 34px;
+            background-color: transparent;
+        }
+
+        #tagline p
+        {
+            top: 0;
+            left: 0;
+            font-size: 2em;
+            font-family: 'Shadows Into Light', sans-serif;
+            background-color: transparent;
+        }
+
+        #tagline h1
+        {
+            bottom: 0;
+            left: 0;
+            font-size: 8em;
+            background-color: transparent;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <a id="logo" href="msp_home.html">./ms>></a>
-        <nav id="navbar">
+        <a id="logo" href="msp_home_old.html">./ms</a>
+        <nav id="primary-navbar">
             <ul>
-                <li><a href="msp_home.html" id="active">Home</a></li>
-                <li><a href="msp_university.html">University</a></li>
-                <li><a href="msp_projects.html">Projects</a></li>
-                <li><a href="msp_about.html">About me</a></li>
-                <li><a href="msp_resume.html">Resume</a></li>
+                <li><a href="msp_home_old.html" id="active">Home</a></li>
+                <li><a href="msp_university.html">College</a></li>
                 <li><a href="msp_contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="gallery">
-            <h1 id="tagline">Sup, nerd. I'm Mykal.</h1>
-            <img id="sip" src="images/mykal_sullivan_coffee_sip.jpg"
-                 alt="Mykal Sullivan sipping coffee at a computer desk">
-        </div>
-        <hr>
-        <article id="intro">
+        <section id="welcome">
+            <div id="tagline">
+                <p id="tagline-top">Hello, I'm</p>
+                <h1 id="tagline-bottom">Mykal Sullivan</h1>
+            </div>
+            <img src="images/home/mykal_sullivan_coffee_sip.png"
+                 alt="Mykal sipping coffee behind a monitor">
+        </section>
+        <section>
             <h1>Introduction</h1>
-        </article>
-        <article id="article1">
-            <h1>Article #1</h1>
-        </article>
-        <article id="article2">
-            <h1>Article #2</h1>
-        </article>
+            <p>
+                I’m a driven C++ programmer who is always finding ways to honing my craft.
+                I’m currently enrolled in the Computer Information Systems and Mathematics programs at ASUB and will be
+                attending UALR for the Game Development and Mathematics programs there. I’ve been employed as a
+                math/programming tutor and help desk technician for ASUB and started working as a remote help desk
+                technician for Ellucian in mid-2024. In my free time, I manage and maintain TheBlkBox (info on that when
+                available).
+            </p>
+        </section>
+        <section>
+            <h1>Skills</h1>
+            <p>
+                While I am a trained systems specialist with years of personal and professional experience, I am a
+                software programmer at heart. I spend the majority of my time developing software in compiled languages
+                such as C/C++. However, I also dig some time into cross-platform languages such as Java and C#. I build
+                my websites from scratch using HTML/CSS/JavaScript and use SQL for all my system databases. I am also
+                familiar with languages like Python, Bash, Powershell, and Rust.
+            </p>
+            <p>
+                As a <em>huge</em> Linux fanatic, Debian has been my main OS for a long while now. I have installed
+                Debian and other Linux-based distributions on countless virtual machines for various software/server
+                projects of mine. In fact... I administrate a server called <em>"TheBlkBox"</em> which serves as a
+                platform for several public services. <strong><em>I'll link a site here in the future for it!</em></strong>
+            </p>
+        </section>
+        <section>
+            <h1>Certifications</h1>
+            <p>
+                I spend a lot of my time studying for certifications and/or searching for ways to reinforce my knowledge
+                about topics covered for certifications.
+            </p>
+            <p>
+                In May 2024, I earned the TestOut Network Pro certifications.
+                In June 2024, I earned the CompTIA A+/Linux+/Certified Systems Support Specialist certifications.
+            </p>
+            <p>
+                I am currently working on the CompTIA Network+ certification and the CPP Institute Certified C++
+                Associate certifications.
+            </p>
+        </section>
     </main>
     <footer>
+        <nav id="bottom-navbar">
+            <ul>
+                <li>
+                    <a href="https://github.com/mykalsullivan/">
+                        <img src="images/icons/github-icon.png" alt="Github icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/mykal-sullivan/">
+                        <img src="images/icons/linkedin-icon.png" alt="LinkedIn icon">
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <p id="copyright">&#169;2024 Mykal Sullivan</p>
     </footer>
 </body>
